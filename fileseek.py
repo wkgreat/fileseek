@@ -111,13 +111,13 @@ def folder_id_ascid_bigger100m(root_path):
 #            if re.match(pattern3, f): exsit_ratio40_dirid.append(dirname)
 #            if os.path.getsize(os.path.join(path, f)) > 100*1024*1024: ascbigger100m_dirid.append(dirname)    
 #        if isnumber and not_exist: not_exsit_ratio_dirid.append(dirname)
-#    print r'åˆ—å‡ºæ‰€æœ‰â€œGetNoAreaâ€é”™è¯¯çš„id'
+#    print r'ÁĞ³öËùÓĞ¡°GetNoArea¡±´íÎóµÄid'
 #    print getnoarea_id
-#    print r'åˆ—å‡ºæ‰€æœ‰ä¸å­˜åœ¨â€œratio_*.*.txtâ€æ–‡ä»¶çš„å•ç‹¬å­ç›®å½•id'
+#    print r'ÁĞ³öËùÓĞ²»´æÔÚ¡°ratio_*.*.txt¡±ÎÄ¼şµÄµ¥¶À×ÓÄ¿Â¼id'
 #    print not_exsit_ratio_dirid
-#    print r'åˆ—å‡ºæ‰€æœ‰å­˜åœ¨â€œratio_4.0.txtâ€æ–‡ä»¶çš„å•ç‹¬å­ç›®å½•id'
+#    print r'ÁĞ³öËùÓĞ´æÔÚ¡°ratio_4.0.txt¡±ÎÄ¼şµÄµ¥¶À×ÓÄ¿Â¼id'
 #    print exsit_ratio40_dirid
-#    print r'åˆ—å‡ºæ‰€æœ‰â€œasc[id].txtâ€æ–‡ä»¶å¤§å°å¤§äº100Mçš„å•ç‹¬å­ç›®å½•id'
+#    print r'ÁĞ³öËùÓĞ¡°asc[id].txt¡±ÎÄ¼ş´óĞ¡´óÓÚ100MµÄµ¥¶À×ÓÄ¿Â¼id'
 #    print ascbigger100m_dirid
 #
 #    return getnoarea_id, not_exsit_ratio_dirid, exsit_ratio40_dirid, ascbigger100m_dirid
