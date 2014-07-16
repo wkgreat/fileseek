@@ -27,7 +27,7 @@ def find_error_id(root_path, error_info):
 	thelist=[]
 	for s in os.listdir(root_path):
 		if not re.match(pattern_txt, s): continue
-		thelist.append(s)
+		thelist.append(s[5:s.find('_')])
 	print thelist
 	return thelist
 
